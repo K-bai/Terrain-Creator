@@ -23,10 +23,12 @@ See `perlin:random/xy`. There are many method to get a hash code from three numb
 
 ## Perlin noise
 An implement of general 2D perlin noise algorithm in minecraft. The only different with other perlin noise is when choosing a random vector, it will choosing a vector from a pre-defined vector list. See `perlin:init` and `perlin:noise`. 
+
 ![perlin](https://i.loli.net/2020/03/24/Gk6OcrWRvyKIDjp.png)
 
 ## Worley noise
 An implement of general 2D worley noise algorithm in minecraft, and used a simple method to determine where the boarder locate. See `perlin:noise_wm` and [here](http://www.iquilezles.org/www/articles/voronoilines/voronoilines.htm).
+
 ![worley](https://i.loli.net/2020/03/24/vMsNt4LwlHEgrhB.png)
 
 ## Wave filter
@@ -40,6 +42,7 @@ Summon a pointer each chunk, set different blocks base on different biomes. See 
 
 
 # 地形创造
+
 ![gen](https://i.loli.net/2020/03/24/nheu9VHky67rJPp.gif)
 
 # 介绍
@@ -61,10 +64,12 @@ Summon a pointer each chunk, set different blocks base on different biomes. See 
 
 ## Perlin噪声
 2D Perlin噪声的游戏内实现。和标准的算法不同的是，本算法只在12个随机向量中选择。参见`perlin:init`和`perlin:noise`。
+
 ![perlin](https://i.loli.net/2020/03/24/Gk6OcrWRvyKIDjp.png)
 
 ## Worley噪声
 2D Worley噪声的游戏内实现。用了一个简单的办法查找不同块之间的边界。参见`perlin:noise_wm`和[这里](http://www.iquilezles.org/www/articles/voronoilines/voronoilines.htm)。
+
 ![worley](https://i.loli.net/2020/03/24/vMsNt4LwlHEgrhB.png)
 
 ## 波浪滤镜
